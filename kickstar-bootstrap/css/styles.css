@@ -1,0 +1,147 @@
+/* tags selectors */
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  margin-top: 3em;
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* class selectors */
+.title-image-col {
+  text-align: center;
+}
+.skill-row {
+  width: 70%;
+  margin: 0 auto;
+  padding: 25px 0;
+  text-align: left;
+  line-height: 2;
+}
+
+.img-left {
+
+  width: 12.5%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.img-left-description {
+  /* clear: left; */
+}
+
+.img-right {
+  width: 12.5%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.img-right-description {
+  clear: right;
+}
+.title-image {
+  width: 30%;
+  margin: 1em auto;
+}
+
+.big-heading {
+  float: left;
+  margin: 1em 1em;
+
+}
+.left-description {
+  text-align: left;
+}
+
+.zoom {
+  background-color: #FFFFFF;
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  background-color: #FFFFFF;
+  transform: scale(6); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.table-responsive {
+  clear:both;
+}
+
+/* banner */
+.container-fluid {
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.colored-section {
+  background-color: #71DFE7;
+  /* border-radius: 5%; */
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #000;
+}
+
+
+.testimonials-image {
+  max-height: 30em;
+  resize: both;
+  border-radius: 5%;
+  margin: 5px;
+}
+
+/* id selectors */
+#with_background {
+  background-color: #71DFE7;
+}
+
+.carousel-control-prev-icon2,
+.carousel-control-next-icon2 {
+  height: 20px;
+  width: 20px;
+  background-size: 100%, 100%;
+  border: 0px solid black;
+}
+.carousel-control-prev-icon2 {
+  background-image: url("../images/prev.png");
+}
+
+.carousel-control-next-icon2 {
+  background-image: url("../images/next.png");
+}
